@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background: #642B73;   */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to bottom, #36d1dc , #5b86e5);  */
+     /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to bottom, #36d1dc , #5b86e5);  */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    padding: 50px 70px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 16px 96px rgba(0, 0, 0, 0.1);
+    transform: translate(-50%, -50%);
+}
