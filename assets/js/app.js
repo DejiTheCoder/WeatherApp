@@ -1,7 +1,5 @@
 // api key = "31365cfe0982f30465153822c8e7344b";
 
-// Tutorial by http://youtube.com/CodeExplained
-
 // SELECT ELEMENTS
 const iconElement = document.querySelector(".weather-icon");
 const tempElement = document.querySelector(".temperature-value p");
@@ -10,7 +8,7 @@ const locationElement = document.querySelector(".location p");
 const notificationElement = document.querySelector(".notification");
 
 // App data
-const weather = {};
+const weather = {}; 
 
 weather.temperature = {
     unit : "celsius"
