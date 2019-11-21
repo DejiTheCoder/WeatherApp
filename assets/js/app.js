@@ -24,7 +24,7 @@ if('geolocation' in navigator){
     navigator.geolocation.getCurrentPosition(setPosition, showError);
 }else{
     notificationElement.style.display = "block";
-    notificationElement.innerHTML = "<p>Browser doesn't Support Geolocation</p>";
+    notificationElement.innerHTML = "<p>Access not granted</p>";
 }
 
 // SET USER'S POSITION
